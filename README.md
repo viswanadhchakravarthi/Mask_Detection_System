@@ -20,6 +20,6 @@ Project Details
 
 Usage
 
-1. Install dependencies: pip install -r requirements.txt
+1. Install dependencies: conda env create/update -f environment.yml
 2. Train the model to generate model file: python train_mask_detector.py
 3. Execution: python detect_mask_video.py
